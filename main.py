@@ -61,7 +61,7 @@ for _ in range(len(all_books)):
     book_title.send_keys(all_books[_]["title"])
     book_url.send_keys(all_books[_]["url"])
     book_price.send_keys(all_books[_]["price"])
-    book_rating.send_keys(all_books[_]["rating"])
+    book_rating.send_keys(all_books[_]["rating/5"])
     book_stock.send_keys(all_books[_]["stock"])
     submit_button.click()
 
