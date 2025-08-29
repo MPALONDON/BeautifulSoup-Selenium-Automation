@@ -1,2 +1,5 @@
-requests
-BeautifulSoup
+requests~=2.32.5
+beautifulsoup4~=4.13.5
+selenium~=4.35.0
+pandas~=2.3.2
+matplotlib~=3.10.5
